@@ -26,6 +26,41 @@
     "STRING_SESSION": {
       "description": "Your Telethon / Pyrogram String Session.",
       "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token for inline or assistant features (Get from @BotFather).",
+      "required": false,
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "Your Assistant Bot Username (without @).",
+      "required": false,
+      "value": ""
+    },
+    "LOGGER_ID": {
+      "description": "Your Telegram Private Group/Channel ID for logs (should start with -100).",
+      "required": false,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram User ID.",
+      "required": false,
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Sudo user IDs separated by space (optional).",
+      "required": false,
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "Your custom command handler trigger (e.g., . or !).",
+      "required": false,
+      "value": "."
+    },
+    "SUDO_COMMAND_HAND_LER": {
+      "description": "Sudo command handler trigger.",
+      "required": false,
+      "value": "!"
     }
   },
   "addons": [
